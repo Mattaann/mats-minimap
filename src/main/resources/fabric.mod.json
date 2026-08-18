@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1, "id": "nordic_minimap", "version": "${version}",
+  "name": "Mat's Minimap", "description": "A smooth, configurable minimap with cave layers and waypoints.",
+  "authors": ["Mathias Kjäll"], "license": "MIT", "icon": "assets/nordic_minimap/icon.png", "environment": "client",
+  "entrypoints": {"client": ["se.kjall.nordicminimap.NordicMinimapClient"]},
+  "depends": {"fabricloader": ">=0.19.3", "minecraft": "~26.2", "java": ">=25", "fabric-api": "*"}
+}
